@@ -1,0 +1,37 @@
+.Service{
+
+    background-color: #FFFFFF;
+}
+.boxes{
+    margin: 2rem auto !important;
+    width: 300px;
+}
+.ServiceTag{
+    text-align: left;
+    margin-bottom: 1rem !important;
+    font-size: 55px;
+    padding-top: 1.6rem !important;
+    font-weight: medium;
+    font-family: 'Playfair Display', serif;
+}
+
+.containerSome{
+    margin: 0 auto !important;
+
+}
+
+
+@media screen and (max-width:760px) {
+    .ServiceTag{
+        text-align: center;
+        margin-bottom: 1rem !important;
+        font-size: 35px;
+
+    }
+    
+    .col-10, .col-6{
+        flex: 0 0 auto;
+        width: 83.33333333%;
+        margin: 0 auto !important;
+      }
+}

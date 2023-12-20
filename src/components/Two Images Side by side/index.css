@@ -1,0 +1,55 @@
+.healthyfood{
+  height: auto !important;
+  padding: 6rem 2rem !important;
+}
+
+
+.content h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 55px;
+  margin-bottom: 2rem !important;
+}
+
+.content .paragraph-one {
+  font-size: 18px;
+  font-weight: medium;
+  font-family: 'DM Sans', sans-serif;
+margin-bottom: 2rem !important;
+
+}
+.content .paragraph-two {
+  font-size: 16px;
+  margin-bottom: 1rem !important;
+  
+
+  font-family: 'DM Sans', sans-serif;
+
+
+}
+
+@media screen and (max-width:768px) {
+
+  
+  
+.content h1 {
+
+  font-size: 30px;
+  margin-bottom: 0.9rem !important;
+}
+
+.content .paragraph-one {
+  font-size: 12px;
+
+margin-bottom: 0.9rem !important;
+
+}
+.content .paragraph-two {
+  font-size: 10px;
+  margin-bottom: 1rem !important;
+
+
+
+}
+
+}

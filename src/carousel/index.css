@@ -1,0 +1,115 @@
+.ServiceN{
+
+    background-color: #ffffff;
+    position: relative;
+}
+
+.boxesN{
+    margin: 2rem auto !important;
+    width: 300px;
+}
+.ServiceTagN{
+    text-align: left;
+    margin-bottom: 1rem !important;
+    font-size: 55px;
+    padding-top: 1.6rem !important;
+    font-weight: medium;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.containerSomeN{
+    margin: 0 auto !important;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+* {
+    scrollbar-width: none;
+}
+
+
+* {
+    -ms-overflow-style: none;
+}
+.arrow {
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 1;
+
+    }
+    .carouselLeftNav {
+        left: 30px;
+    }
+    .carouselRighttNav {
+        right: 30px;
+    }
+
+
+    .carouselItems {
+        display: flex;
+        gap: 10px;
+        overflow-y: hidden;
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 0 20px;
+    }
+    
+    .carouselItems .carouselItem {
+        width: 125px;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+    
+    .carouselItems .carouselItem .posterBlock {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1 / 1.5;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    @media (min-width: 768px) {
+        .carouselItems {
+            gap: 20px;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .carouselItems .carouselItem {
+            width: calc(25% - 15px);
+        }
+    
+    }
+    
+    @media (min-width: 992px) {
+        .carouselItems .carouselItem {
+            width: calc(20% - 16px);
+        }
+    }
+    
+    @media screen and (max-width:769px) {
+        .arrow{
+            display: none;
+        }
+        
+    }
+
+
+
